@@ -18,7 +18,7 @@ public class TestUserProfile {
         System.out.println("Please enter a User Id");
         String uid = scan.nextLine();
         System.out.println("Please select your preferred movie from the list:");
-        up.getGenres().toString();
+        System.out.println(up.getGenres().toString());
             //for some reason the string array is not appearing in the test userprofile class
 
         String genre = scan.nextLine();
