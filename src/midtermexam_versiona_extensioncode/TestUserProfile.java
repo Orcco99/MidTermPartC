@@ -22,7 +22,6 @@ public class TestUserProfile {
         for (int i =0; i< up.getGenres().length;i++){
             System.out.println(up.getGenres()[i]);
         }
-            //for some reason the string array is not appearing in the test userprofile class
 
         String genre = scan.nextLine();
         up.setUserID(uid);
