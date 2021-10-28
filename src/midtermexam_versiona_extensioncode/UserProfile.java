@@ -71,6 +71,11 @@ public class UserProfile
     public String[] getGenres() {
        return genres;
     }   
+
+    @Override
+    public String toString() {
+        return "UserProfile{" + "userID = " + userID + ", genre = " + genre + '}';
+    }
     
     
 }//end class

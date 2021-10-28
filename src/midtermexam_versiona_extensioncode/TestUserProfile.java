@@ -29,7 +29,7 @@ public class TestUserProfile {
         
         
         System.out.println("your profile was created succesfully!");
-        up.toString();
+        System.out.println(up.toString());
         
         
     }
